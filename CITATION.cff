@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  State-space Lee-Carter mortality projection
+  software
+message: >-
+  If you use this software, please cite both the
+  related article (as indicated in README) and the
+  software itself.
+type: software
+authors:
+  - given-names: Rokas
+    family-names: Gylys

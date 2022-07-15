@@ -1,12 +1,12 @@
 # mortalitySSM
 State-space models for statistical mortality projections.
 The code was developed to perform stachastic Lee-Carter model mortality projections using state-space model set up. Two separate models are provided:
-- basic linear model (DLM -Dynamic Linear Model)
+- basic linear model (DLM -Dynamic Linear Model);
 - DLM with regime switching between low and high volatility regimes. 
 Parameter fitting is performed using MCMC Gibbs sampler. The model useses R dlm package to perform Kalman filtering.
 As model application, the code is provided for calculation of mortality VAR (Value-at-Risk).
 
-As the imput the code uses mortality data obtained from Human Mortality Database https://mortality.org/
+As the imput the code uses mortality data obtained from Human Mortality Database https://mortality.org/.
 
 The following files are uploaded:
 - **Lee-Carter DLM with switching 2022 03.R**  The code was used to derive mortality projections for the Swedish population in the article: https://www.mdpi.com/2227-7390/8/7/1053.

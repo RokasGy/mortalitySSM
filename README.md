@@ -1,6 +1,6 @@
 # mortalitySSM
-State-space models for statistical mortality projections
-The code was developed to perform stachastic Lee-Carter model mortality projections using state-space model set up. Two separate models were developed:
+State-space models for statistical mortality projections.
+The code was developed to perform stachastic Lee-Carter model mortality projections using state-space model set up. Two separate models are provided:
 - basic linear model (DLM -Dynamic Linear Model)
 - DLM with regime switching between low and high volatility regimes. 
 Parameter fitting is performed using MCMC Gibbs sampler. The model useses R dlm package to perform Kalman filtering.
